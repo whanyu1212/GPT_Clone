@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gpt-clone"
+version = "0.1.0"
+description = "Making a GPT Clone using OPENAI API and Streamlit"
+authors = ["hy"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^1.2.4"
+streamlit = "^1.28.2"
+ipykernel = "^6.26.0"
+streamlit-lottie = "^0.0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
